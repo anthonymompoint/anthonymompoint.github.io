@@ -1,0 +1,29 @@
+.btn-1:hover,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover {
+	color: #1b5202;
+}
+
+.btn-1,
+.event-section .event-item-inner:before,
+.couple img {
+	border-color: #1b5202;
+}
+
+
+.story-section 
+.btn-1,
+.people-section .filter-btn.active,
+.event-section {
+	background-color: #b69d6e;
+}
+
+.registry-section,
+.rsvp-section{
+	background-color: #829c84;
+}
