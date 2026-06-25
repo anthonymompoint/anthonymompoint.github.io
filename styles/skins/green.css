@@ -19,8 +19,16 @@
 .story-section 
 .btn-1,
 .people-section .filter-btn.active,
-.event-section {
+.event-section{
 	background-color: #b69d6e;
+}
+
+.footer {
+	background-color: #d1c3a4;
+}
+
+.footer-content {
+	background-color: #FFFFFFFF;
 }
 
 .registry-section,

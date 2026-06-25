@@ -127,9 +127,6 @@ $(document).ready(function() {
 	})
 })
 
-document.getElementById("RSVP-SEND").onclick = function() {
-    return handleRSVP();
-};
 
 function handleRSVP() {
     console.log("Handle RSVP was called");
