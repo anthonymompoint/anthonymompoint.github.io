@@ -794,6 +794,78 @@ header, section, footer {
 	max-width: 75%;
 }
 
+.parking-information {
+	padding: 80px 0 80px;
+}
+
+.parking-information .section-title h2,
+.parking-information .section-title p,
+.parking-information .section-end p,
+.parking-information .section-end li {
+	color: #111111;
+}
+
+.parking-information .section-title p {
+	margin: 10px 0 0;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.parking-information .registry-item {
+	flex: 0 0 100%;
+	max-width: 30%;
+	padding: 45px;
+}
+
+.parking-information .registry-item-inner {
+	background-color: #ffffff;
+	padding: 15px;
+    min-height: 175px;
+    vertical-align: middle;
+	text-align: center;
+	box-shadow: 0 0 10px #888888;
+}
+
+.parking-information .registry-item-inner img {
+	width: 100%;
+	transition: all 0.5s ease;
+	height: 50px;
+	object-fit: contain;
+    align-items:center;
+    vertical-align: middle;
+}
+
+.parking-information .registry-item-inner:hover img {
+	transform: scale(0.95);
+}
+
+.parking-information .registry-item-inner h4 {
+    margin-top: 20px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 500;
+	margin: 20px 0 5px;
+	text-transform: capitalize;
+    vertical-align: middle;
+}
+
+.parking-information .registry-item-inner p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.parking-information .section-end {
+    margin-top: 60px;
+    text-align: center;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.parking-information .section-end ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
 /* gift registry */
 .registry-section {
 	padding: 80px 0 80px;
