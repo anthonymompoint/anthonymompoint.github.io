@@ -814,6 +814,7 @@ header, section, footer {
 .parking-information .registry-item {
 	flex: 0 0 100%;
 	max-width: 30%;
+	min-width: fit-content;
 	padding: 45px;
 }
 
