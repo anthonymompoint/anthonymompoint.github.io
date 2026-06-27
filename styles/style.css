@@ -811,14 +811,13 @@ header, section, footer {
 	line-height: 26px;
 }
 
-.parking-information .registry-item {
+.parking-information .parking-item {
 	flex: 0 0 100%;
 	max-width: 30%;
-	min-width: fit-content;
 	padding: 45px;
 }
 
-.parking-information .registry-item-inner {
+.parking-information .parking-item-inner {
 	background-color: #ffffff;
 	padding: 15px;
     min-height: 175px;
@@ -827,7 +826,7 @@ header, section, footer {
 	box-shadow: 0 0 10px #888888;
 }
 
-.parking-information .registry-item-inner img {
+.parking-information .parking-item-inner img {
 	width: 100%;
 	transition: all 0.5s ease;
 	height: 50px;
@@ -836,11 +835,11 @@ header, section, footer {
     vertical-align: middle;
 }
 
-.parking-information .registry-item-inner:hover img {
+.parking-information .parking-item-inner:hover img {
 	transform: scale(0.95);
 }
 
-.parking-information .registry-item-inner h4 {
+.parking-information .parking-item-inner h4 {
     margin-top: 20px;
 	font-size: 16px;
 	color: #000000;
@@ -850,7 +849,7 @@ header, section, footer {
     vertical-align: middle;
 }
 
-.parking-information .registry-item-inner p {
+.parking-information .parking-item-inner p {
 	font-size: 16px;
 	line-height: 26px;
 }
@@ -887,6 +886,7 @@ header, section, footer {
 
 .registry-section .registry-item {
 	flex: 0 0 100%;
+	min-width: fit-content;
 	max-width: 30%;
 	padding: 45px;
 }
